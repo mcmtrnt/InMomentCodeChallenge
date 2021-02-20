@@ -1,0 +1,121 @@
+a {
+    background: #8B3CE6;
+    border-radius: 100px;
+    padding: .5rem 2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 124%;
+}
+
+a:hover .right_arrow {
+    display: inline;
+}
+
+.arrow {
+    float: right;
+    padding-right: 1.4rem;
+}
+
+.arrow:hover {
+    color: #8B3CE6;
+    cursor: pointer;
+}
+
+body {
+    background: #EDF0F1;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    color: #001D30;
+    margin: 0;
+}
+
+.container {
+    width: 33%;
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+}
+
+.details {
+    display: none;
+}
+
+#details3 {
+    padding-bottom: 1.8rem;
+    border-bottom: 1px solid #CFD4D9;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 146.28%;
+}
+
+h4 {
+    font-size: 1.1rem;
+    line-height: 146.28%;
+    font-weight: 700;
+    padding-top: 1.7rem;
+    border-top: 1px solid #CFD4D9;
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+h5 {
+    margin-top: 4rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    text-transform: uppercase;
+    color: #8B3CE6;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: .8rem;
+    line-height: 146.28%;
+    color: #8B3CE6;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.main_image {
+    width: 50%;
+    height: 100vh;
+    float: right;
+    display: block;
+    object-fit: cover;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 165%;
+    padding-bottom: 1rem;
+}
+
+.right_arrow {
+    display: none;
+}
+
+
+/******** MEDIA QUERIES *******/
+
+@media screen and (max-width: 812px) {
+  
+.container {
+    display: block;
+    width: 80%;
+}
+
+.main_image {
+    height: 100%;
+    width: 100%;
+    float: none;
+    object-fit: scale-down;
+}
+
+}
