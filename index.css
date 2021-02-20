@@ -106,9 +106,17 @@ p {
 
 @media screen and (max-width: 812px) {
   
+a {
+    font-size: .9rem;
+}
+
 .container {
     display: block;
     width: 80%;
+}
+
+h4 {
+    font-size: .9rem;
 }
 
 .main_image {
@@ -116,6 +124,10 @@ p {
     width: 100%;
     float: none;
     object-fit: scale-down;
+}
+
+p {
+    font-size: .8rem;
 }
 
 }
